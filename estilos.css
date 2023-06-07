@@ -1,0 +1,90 @@
+:root {
+
+    --preto: #353232;
+    --branco: rgb(247, 247, 247);
+
+}
+header{
+    background-color: #4d4d4d;
+}
+
+button svg {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+button {
+
+    border-radius: 10em;
+    padding: 16px;
+    background-color: var(--preto);
+    border: none;
+    fill: var(--branco);
+    position: relative;
+
+}
+
+div span {
+
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    border-radius: 20px;
+    background-color: red;
+    color: var(--branco);
+    padding: 2px;
+
+}
+
+div.countainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.flecha {
+
+    position: absolute;
+    right: 1px;
+    bottom: -5px;
+    border-radius: 20px;
+    background-color: #808080;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+
+}
+
+.face-search{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.face-search p{
+
+    font-size: 25px;
+    color: var(--branco);
+    padding-left: 15px;
+
+}
+
+.lupa {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto);
+    padding: 18px;
+    margin-left: 8px;
+    border-radius: 10em;
+    width: 25px;
+    height: 25px;
+    fill: var(--branco);
+
+}
